@@ -50,12 +50,6 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       - /etc/localtime:/etc/localtime:ro
       - /etc/timezone:/etc/timezone:ro
-    healthcheck:
-      test: ["CMD", "pgrep", "-f", "/usr/local/bin/revive.sh"]
-      interval: 30s
-      timeout: 5s
-      retries: 3
-      start_period: 10s
 ```
 
 ---

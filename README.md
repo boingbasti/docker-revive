@@ -30,7 +30,7 @@ docker run -d \
   boingbasti/revive:latest
 ```
 
-- `REVIVE_INTERVAL` – interval in seconds to check for stopped containers (default: 60s)
+- `REVIVE_INTERVAL` – interval in seconds to check for stopped containers (default: 60s); must be a positive integer — invalid values are ignored and fall back to 60s
 
 ---
 

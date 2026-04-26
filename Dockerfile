@@ -1,6 +1,6 @@
 FROM alpine:3.21
 
-# ---- Minimal benötigte Tools ----
+# ---- Minimal required tools ----
 RUN apk add --no-cache docker-cli
 
 # Copy revive script
